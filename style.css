@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    p {
+        font-family: 'Georgia', serif;
+        font-size: 16px; /* Optional: Adjust the font size */
+        line-height: 1.6; /* Optional: Adjust the line height for readability */
+        color: #555; /* Optional: Set the text color */
+    }
+    
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif; /* Ensures the name uses Montserrat font */
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center; /* Centers the name */
+    margin: 0; /* Removes extra margins */
+    padding: 10px 0; /* Adds spacing around the name */
+}
+
+/* Profile Picture */
+.profile-pic {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes the image circular */
+    border: 3px solid #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    padding: 20px 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.project {
+    background: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+}
